@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f4ec;
+    color: #222;
+    line-height: 1.6;
+}
+
+.site-header {
+    background-color: #8b1e1e;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.site-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: #222;
+    text-align: center;
+    padding: 12px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffd166;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.hero-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    font-size: 18px;
+}
+
+.order-button {
+    display: inline-block;
+    background-color: #8b1e1e;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.order-button:hover {
+    background-color: #a83232;
+}
+
+.info-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info-section h2 {
+    margin-bottom: 25px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background-color: white;
+    width: 280px;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.info-card h3 {
+    color: #8b1e1e;
+    margin-bottom: 10px;
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-section p {
+    max-width: 750px;
+    margin: auto;
+}
+
+.site-footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .site-header h1 {
+        font-size: 28px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero-section h2 {
+        font-size: 26px;
+    }
+} 
