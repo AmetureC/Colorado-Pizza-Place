@@ -16,17 +16,4 @@ This project is a web application for Colorado Pizza Place. The Sprint 1 functio
 - CSS
 - JavaScript
 
-## How to Run the Website
 
-This project is a basic HTML, CSS, and JavaScript website. To open the website locally, open the project folder in a code editor such as Visual Studio Code or GitHub Codespaces.
-
-In the terminal, run:
-=======
-## Live Preview
-https://ideal-space-halibut-694gg7pgg4w72r47p-8000.app.github.dev/
-
-The website can be previewed locally in GitHub Codespaces by running:
->>>>>>> c2185b1b8b9050203f728601efacb9068dcaf114
-
-```bash
-python3 -m http.server 8000
